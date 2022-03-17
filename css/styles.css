@@ -4,21 +4,6 @@ body {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
 }
-/* top section */
-.top-container {
-  background-color: #eaf6f6;
-  position: relative;
-  padding-top: 200px;
-}
-
-.mountain {
-  width: 45%;
-}
-
-.pro {
-  text-decoration: underline red;
-}
-
 h1 {
   color: #66bfbf;
   font-size: 562%;
@@ -43,18 +28,33 @@ p {
   font-weight: 2rem;
 }
 
+/* top section */
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 200px;
+}
+
+.mountain {
+  width: 45%;
+}
+
+.pro {
+  text-decoration: underline red;
+}
+
 .top-cloud {
   width: 12%;
   position: absolute;
   right: 300px;
-  top: 40;
+  top: 200px;
 }
 
 .bottom-cloud {
   width: 12%;
   position: absolute;
-  left: 424px;
-  top: 412px;
+  left: 350px;
+  top: 400px;
 }
 
 /* Middle container */
@@ -62,8 +62,8 @@ p {
   background-color: white;
   margin: 100px 0;
 }
-.profile-heading{
-  padding: 10%;
+.profile-heading {
+  padding: 4%;
 }
 .intro {
   width: 30%;
